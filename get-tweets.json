@@ -1,0 +1,6 @@
+import getTweets from 'get-tweets';
+import tokens from 'twitter-tokens';
+
+getTweets(tokens, 'largescalejs_ru', '424119506508980224').then(tweets => {
+  console.log(tweets);
+});
